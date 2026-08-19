@@ -104,14 +104,22 @@ div#formulario > p{
     transition: 0.3s;
     cursor: pointer;
     border-radius: 5px;
-
 }
 
 .botao:hover{
-    background-color:#A283B1;
+    background-color: #A283B1;
 }
 
+.botao[type="reset"] {
+    background-color: transparent;
+    color: #6E3780;
+    border: 1px solid #6E3780;
+}
 
+.botao[type="reset"]:hover {
+    background-color:  #A283B1;
+    color: white;
+}
 
 .esqueci{
     display: block;
